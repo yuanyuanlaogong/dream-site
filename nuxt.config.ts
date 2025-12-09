@@ -47,19 +47,19 @@ export default defineNuxtConfig({
     }
   },
   // nuxt-umami Umami 统计
-  umami: {
-    id: '87f94791-c0a5-424f-a3f4-e0171d82352b',
-    host: 'https://um.baiwumm.com',
-    autoTrack: true
-  },
+  // umami: {
+  //   id: '87f94791-c0a5-424f-a3f4-e0171d82352b',
+  //   host: 'https://um.baiwumm.com',
+  //   autoTrack: true
+  // },
   // nuxt-gtag 谷歌统计
-  gtag: {
-    enabled: process.env.NODE_ENV === 'production',
-    id: 'G-76RP7KMHMQ',
-    config: {
-      page_title: process.env.NUXT_SITE_NAME
-    },
-  },
+  // gtag: {
+  //   enabled: process.env.NODE_ENV === 'production',
+  //   id: 'G-76RP7KMHMQ',
+  //   config: {
+  //     page_title: process.env.NUXT_SITE_NAME
+  //   },
+  // },
   // dayjs 插件
   dayjs: {
     locales: ['zh-cn'],
