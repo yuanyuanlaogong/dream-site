@@ -6,7 +6,7 @@
   "author": {
     "name": "baiwumm",
     "email": "me@baiwumm.com",
-    "url": "https://baiwumm.com"
+    "url": "https://github.com/yuanyuanlaogong"
   },
   "scripts": {
     "build": "nuxt build",
